@@ -1,7 +1,14 @@
 #!/bin/bash
 
 #defining variables
-nerdfontsrepo='https://api.github.com/repos/ryanoasis/nerd-fonts'
+if [[ -z ${ProxyPrefix} ]]
+then
+    echo 'ProxyPrefix is not set using ori url'
+    nerdfontsrepo="${ProxyPrefix}https://api.github.com/repos/ryanoasis/nerd-fonts"
+else
+    echo "ProxyPrefix is set to ${ProxyPrefix}"
+    nerdfontsrepo="${ProxyPrefix}https://api.github.com/repos/ryanoasis/nerd-fonts"
+fi
 aFontInstalled="False"
 removeZipFiles="True"
 dist_dir="$HOME/.local/share/fonts"
