@@ -12,7 +12,7 @@
 ### Installation
 
 ```
-curl -fsSL https://raw.githubusercontent.com/ronniedroid/getnf/master/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/HernandoR/getnf/master/install.sh | sh
 ```
 
 Make sure that `~/.local/bin` is in your PATH.
