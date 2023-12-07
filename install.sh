@@ -13,7 +13,7 @@ rm -f "$GETNFLOC"
 # -S: but show an error message if it fails
 # -L: follow redirects
 # -O: write output to a local file named like the remote file
-curl -fsSLO https://raw.githubusercontent.com/ronniedroid/getnf/master/getnf --output-dir "$DEST"
+curl -fsSLO https://raw.githubusercontent.com/hernandoR/getnf/master/getnf --output-dir "$DEST"
 
 # make the script executable
 chmod 755 "$GETNFLOC"
