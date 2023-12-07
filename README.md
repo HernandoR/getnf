@@ -10,6 +10,10 @@
 - unzip
 
 ### Installation
+optional
+```
+export ProxyPrefix='https://getnf.lzhen-cn.workers.dev/proxy?proxyUrl='
+```
 
 ```
 curl -fsSL https://raw.githubusercontent.com/HernandoR/getnf/master/install.sh | sh
